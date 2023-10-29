@@ -1,0 +1,695 @@
+/*Mobile---------------------------------*/
+@media only screen and (max-width: 570px){
+
+  body{
+    padding:0;
+    margin:0;
+    border:0;
+  }
+  
+  h1{
+    font-family: 'Raleway', sans-serif;
+    font-size : 1.5rem;
+  }
+  
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-size : 1rem;
+  }
+  
+  
+  h3{
+    font-family: 'Raleway', sans-serif;
+    font-size : 0.5rem;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 12px;
+  }
+  
+  
+  .top-logo{
+    color:rgb(255, 143, 205);
+    font-size:25px;
+  }
+  
+  .navbar{
+    padding:5px 15px 5px 15px;
+  }
+  
+  .nav-link{
+    color:rgba(112,204,191,255);
+    font-weight: bold;
+  }
+  
+  .topcontainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .backgroundimage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nametag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    text-align: center;
+    z-index: 1; /* Place the nametag above the background image */
+    background-image: -webkit-linear-gradient(30deg,  rgb(255, 255, 255) 40%,  rgb(255, 143, 205) 20%,  rgb(255, 143, 205) 50%);
+  }
+  
+  .logo{
+    float:left;
+    padding-left:7%;
+    font-size:1.5rem;
+    color: rgb(255, 143, 205);
+    padding-top:20%;
+    animation: fadeIn 3s ease-in forwards;
+    opacity: 0;
+  }
+  
+  .headingText{
+  font-family: cursive;
+  font-size: 1rem;
+  }
+  
+  .rightText{
+    width:50%;
+    text-align: right;
+    float:right;
+  }
+  
+  .intro{
+    font-family: cursive;
+    color:white;
+    font-size: 1.5vw;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+    
+    
+  .containerfluid{
+      text-align: center;
+      padding: 5% 7%;
+  }
+  
+  .featureheading{
+      font-weight: bold;
+      color:rgba(112,204,191,255);
+  }
+  
+  .featurepara{
+    color:rgba(112,204,191,255);
+    font-size: 0.5rem;
+  }
+    
+  .icons{
+      color:rgba(112,204,191,255);
+      font-size: 1.5rem;
+      padding-top:30px;
+      padding-bottom: 20px;
+  }
+  
+  
+  .menuback{
+    background-color: rgb(255, 143, 205);
+    height:100%;
+    padding-left:15%;
+    text-align: center;
+  }
+  
+  .menuHeading{
+    color:white;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    position:relative;
+    left:-7%;
+    
+  }
+  
+  .card{
+    margin:10px;
+    height:auto;
+    max-width: 70%;
+    align-self: left;
+  }
+  
+  .cardImg{
+    width:100%;
+    height:auto;
+    border-radius:0%;
+  }
+  
+  .menutext{
+    color:rgba(112,204,191,255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    float:left;
+    max-width: 60%;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .menupara{
+    color:rgba(112,204,191,255);
+    font-size: 1.5rem;
+    float:right;
+    max-width: 40%;
+    padding-top: 20px;
+  }
+  
+  .menudesc{
+    color: rgba(112,204,191,255);
+    font-size: 0.7rem;
+    float: left;
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .seeMore{
+    width:100%;
+    padding:20px;
+    font-size:2rem;
+    background-color: rgb(255, 143, 205);
+    color:white;
+    border:0px;
+    margin-top:20px;
+    position:relative;
+    left:-7%;
+}
+
+.carouselbackground{
+  background-color: rgba(112,204,191,255);
+  width:90%;
+  height:250px;
+  text-align: left;
+}
+
+.carouselImages{
+  width:50%;
+  height:90%;
+  float:left;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-right: 5%;
+}
+
+.carouselText{
+  color:white;
+  padding-top: 5%;
+  padding-right: 5%;
+
+}
+
+.carouselText p{
+  font-size: 11px;
+  line-height: normal;
+}
+  
+.footer{
+  background-color: rgb(255, 143, 205);
+  color:white;
+  text-align: center;
+  margin:none;
+  padding: 30px;
+}
+
+.apps{
+  margin:20px 10px;
+  font-size: 30px;
+}
+
+
+}
+
+/*Tablet---------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px){
+
+  body{
+    padding:0;
+    margin:0;
+    border:0;
+  }
+  
+  h1{
+    font-family: 'Raleway', sans-serif;
+    font-size : 2rem;
+  }
+  
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-size : 1.5rem;
+  }
+  
+  
+  h3{
+    font-family: 'Raleway', sans-serif;
+    font-size : 1rem;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+  }
+  
+  
+  .top-logo{
+    color:rgb(255, 143, 205);
+    font-size:30px;
+  }
+  
+  .navbar{
+    padding:5px 15px 5px 15px;
+  }
+  
+  .nav-link{
+    color:rgba(112,204,191,255);
+    font-weight: bold;
+  }
+  
+  .topcontainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .backgroundimage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nametag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    text-align: center;
+    z-index: 1; /* Place the nametag above the background image */
+    background-image: -webkit-linear-gradient(30deg,  rgb(255, 255, 255) 40%,  rgb(255, 143, 205) 20%,  rgb(255, 143, 205) 50%);
+  }
+  
+  .logo{
+    float:left;
+    padding-left:5%;
+    font-size:5rem;
+    color: rgb(255, 143, 205);
+    padding-top:15%;
+    animation: fadeIn 3s ease-in forwards;
+    opacity: 0;
+  }
+  
+  .headingText{
+  font-family: cursive;
+  font-size: 2rem;
+  }
+  
+  .rightText{
+    width:50%;
+    text-align: right;
+    float:right;
+  }
+  
+  .intro{
+    font-family: cursive;
+    color:white;
+    font-size: 1.9vw;
+    padding: 3%;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+    
+    
+  .containerfluid{
+      padding : 10% 15%;
+      text-align: center;
+  }
+  
+  .featureheading{
+      font-weight: bold;
+      color:rgba(112,204,191,255);
+  }
+  
+  .featurepara{
+    color:rgba(112,204,191,255);
+  }
+    
+  .icons{
+      color:rgba(112,204,191,255);
+      font-size: 3rem;
+      padding-top:60px;
+      padding-bottom: 20px;
+  }
+  
+  
+  .menuback{
+    background-color: rgb(255, 143, 205);
+    height:100%;
+    text-align: center;
+    padding:30px;
+  }
+  
+  
+  .menuHeading{
+    color:white;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 60px;
+    text-decoration: underline;
+  }
+  
+  .card{
+    margin:10px;
+    height:500px;
+  }
+  
+  .cardImg{
+    width:100%;
+    height:auto;
+    border-radius:0%;
+  }
+  
+  .menutext{
+    color:rgba(112,204,191,255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    float:left;
+    max-width: 70%;
+    text-align: left;
+  }
+  
+  .menupara{
+    color:rgba(112,204,191,255);
+    font-size: 1.5rem;
+    float:right;
+    max-width: 30%;
+    text-align: right;
+  }
+  
+  .menudesc{
+    color: rgba(112,204,191,255);
+    font-size: 0.7rem;
+    float: left;
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .seeMore{
+    width:100%;
+    padding:20px;
+    font-size:2rem;
+    background-color: rgb(255, 143, 205);
+    color:white;
+    border:0px;
+    margin-top:20px;
+}
+
+.carouselbackground{
+  background-color: rgba(112,204,191,255);
+  width:90%;
+  height:350px;
+  text-align: left;
+}
+
+.carouselImages{
+  width:50%;
+  height:90%;
+  float:left;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-right: 5%;
+}
+
+.carouselText{
+  color:white;
+  padding-top: 5%;
+  padding-right: 5%;
+
+}
+
+.footer{
+  background-color: rgb(255, 143, 205);
+  color:white;
+  text-align: center;
+  margin:none;
+  padding: 30px;
+}
+
+.apps{
+  margin:20px 10px;
+  font-size: 30px;
+}
+  
+
+}
+
+/*Desktop--------------------------------*/
+@media only screen and (min-width: 1010px){
+
+body{
+  padding:0;
+  margin:0;
+  border:0;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size : 2.5rem;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size : 2rem;
+}
+
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size : 1.5rem;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+
+.top-logo{
+  color:rgb(255, 143, 205);
+  font-size:30px;
+}
+
+.navbar{
+  padding:5px 15px 5px 15px;
+}
+
+.nav-link{
+  color:rgba(112,204,191,255);
+  font-weight: bold;
+}
+
+.topcontainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.backgroundimage {
+  width: 100%;
+  height: auto;
+}
+
+.nametag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  text-align: center;
+  z-index: 1; /* Place the nametag above the background image */
+  background-image: -webkit-linear-gradient(30deg,  rgb(255, 255, 255) 40%,  rgb(255, 143, 205) 20%,  rgb(255, 143, 205) 50%);
+}
+
+.logo{
+  float:left;
+  padding-left:5%;
+  font-size:10rem;
+  color: rgb(255, 143, 205);
+  padding-top:15%;
+  animation: fadeIn 3s ease-in forwards;
+  opacity: 0;
+}
+
+.headingText{
+font-family: cursive;
+font-size: 5rem;
+}
+
+.rightText{
+  width:40%;
+  text-align: right;
+  float:right;
+}
+
+.intro{
+  font-family: cursive;
+  color:white;
+  font-size: 20px;
+  padding-right: 10%;
+  padding-top: 8%;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+  
+  
+.containerfluid{
+    padding : 10% 15%;
+    text-align: center;
+}
+
+.featureheading{
+    font-weight: bold;
+    color:rgba(112,204,191,255);
+}
+
+.featurepara{
+  color:rgba(112,204,191,255);
+}
+  
+.icons{
+    color:rgba(112,204,191,255);
+    font-size: 3rem;
+    padding-top:60px;
+    padding-bottom: 20px;
+}
+
+
+.menuback{
+  background-color: rgb(255, 143, 205);
+  height:100%;
+  text-align: center;
+  padding:30px;
+}
+
+.menuHeading{
+  color:white;
+  padding: 20px;
+  font-family: cursive;
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+.card{
+  margin:10px;
+  height:500px;
+  text-align: left;
+}
+
+.cardImg{
+  width:100%;
+  height:auto;
+  border-radius:0%;
+}
+
+.menutext{
+  color:rgba(112,204,191,255);
+  font-size: 1.5rem;
+  font-weight: bold;
+  float:left;
+  max-width: 60%;
+}
+
+.menupara{
+  color:rgba(112,204,191,255);
+  font-size: 1.5rem;
+  float:right;
+  max-width: 40%;
+  text-align: right;
+}
+
+.menudesc{
+  color: rgba(112,204,191,255);
+  font-size: 0.7rem;
+  float: left;
+  padding-top: 10px;
+}
+
+.seeMore{
+    width:100%;
+    padding:20px;
+    font-size:2.5rem;
+    background-color: rgb(255, 143, 205);
+    color:white;
+    border:0px;
+    margin-top:20px;
+}
+
+.carouselbackground{
+  background-color: rgba(112,204,191,255);
+  width:90%;
+  height:400px;
+  text-align: left;
+}
+
+.carouselImages{
+  width:50%;
+  height:90%;
+  float:left;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-right: 5%;
+}
+
+.carouselText{
+  color:white;
+  padding-top: 5%;
+  padding-right: 5%;
+
+}
+
+.footer{
+  background-color: rgb(255, 143, 205);
+  color:white;
+  text-align: center;
+  margin:none;
+  padding: 30px;
+}
+
+.apps{
+  margin:20px 10px;
+  font-size: 30px;
+}
+
+}
